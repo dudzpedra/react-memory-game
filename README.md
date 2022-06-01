@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed for my 3 year old daughter, to enjoy playing while learning english!
 
 ## Available Scripts
 
