@@ -1,4 +1,4 @@
-# React Memory Game
+# React Memory Game :brain
 
 This project was developed for my 3 year old daughter, to enjoy playing while learning english!
 
