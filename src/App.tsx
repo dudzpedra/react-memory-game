@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import CardGrid from "./components/CardGrid";
+import cards from "./resources/data";
 
 function App() {
+  const shuffleCards = () => {
+    const sortedCards = [...cards].sort(() => Math.random() - 0.5);
+    console.log(sortedCards);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h3>Memory Game</h3>
+      <button onClick={shuffleCards}>New Game</button>
+      <CardGrid />
     </div>
   );
 }

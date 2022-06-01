@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  &:active {
+    transform: scale(0.96);
+  }
+}
+.card-image {
+  width: 100%;
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgb(110, 109, 109);
+  }
+}
+
